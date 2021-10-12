@@ -1,4 +1,4 @@
-<div class="w-5/6 m-auto bg-pink-100 h-screen text-xl">
+<div class="w-5/6 m-auto bg-pink-100 pb-20 text-xl">
 	<slot />
 </div>
 

@@ -2,9 +2,7 @@
 	import Client from '$lib/prismic';
 	import prismic from '@prismicio/client';
 
-	console.log(Client);
-
-	export async function load({ page, fetch, session, stuff }) {
+	export async function load() {
 		const response = await Client.query([prismic.Predicates.at('document.type', 'recipe')]);
 
 		return {
